@@ -11,8 +11,8 @@ public class Solution {
         BigInteger a = in.nextBigInteger();
         BigInteger b = in.nextBigInteger();
 
-        System.out.println( a + b );
-        System.out.println( a * b );
+        System.out.println( a.add( b ) );
+        System.out.println( a.multiply( b ) );
 
         in.close();
     }
